@@ -1,14 +1,4 @@
-let quote = document.getElementById("quote");
-let author = document.getElementById("author");
-let changeQuote = document.getElementById("changeQuote");
-
-
-changeQuote.addEventListener("click", () =>{
-	quote.textContent = quotes[1]["quote"];
-	author.textContent = quotes[1]["name"];
-});
-
-let quotes =
+export let quotes =
 [
 {
 "quote" : "Life isn’t about getting and having, it’s about giving and being.",
